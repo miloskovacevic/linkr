@@ -1,0 +1,23 @@
+{
+  "name": "linkr",
+  "version": "1.0.0",
+  "description": "App with share and like functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miloskovacevic/linkr.git"
+  },
+  "author": "Milos Kovacevic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miloskovacevic/linkr/issues"
+  },
+  "homepage": "https://github.com/miloskovacevic/linkr",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.3.7"
+  }
+}

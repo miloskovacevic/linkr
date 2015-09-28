@@ -1,0 +1,17 @@
+{
+  "name": "linkr",
+  "version": "1.0.0",
+  "homepage": "https://github.com/miloskovacevic/linkr",
+  "authors": [
+    "Milos Kovacevic <miloscpt@gmail.com>"
+  ],
+  "description": "App with share and like functionality",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
