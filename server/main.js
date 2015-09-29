@@ -5,6 +5,9 @@ var server = require('http').Server(app);
 // deklarisemo i vezujemo socket.io za server...
 var io = require('socket.io')(server);
 
+app.use(express.static('app'));
+app.use('/bower_components', express.static('bower_components'));
+
 var messages = [
     {
         userId: 1,
@@ -51,8 +54,6 @@ var messages = [
         ts: Date.now() - 10000
     }
 ];
-
-app.use(express.static('app'));
 
 //pri necijoj konekciji na server, u konzolu upisi notifikaciju i posalji niz poruka tom korisniku
 io.on('connection', function (socket) {

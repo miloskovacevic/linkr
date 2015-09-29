@@ -1,0 +1,60 @@
+* {
+    font-family: "Source Sans Pro";
+}
+
+body {
+    color: #111111;
+    background-color: #FFFFFF;
+    font-size: 1.2em;
+    margin: 3em;
+}
+.time {
+    font-style: italic;
+    font-weight: 300;
+    color: #AAAAAA;
+    font-size: 0.8em;
+}
+.name {
+    font-weight: 600;
+    color: #001f3f;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type=text] {
+    padding: 0.5em;
+    font-size: 0.8em;
+    width: 22em;
+    margin: 1em 0;
+
+}
+
+textarea {
+    padding: 0.25em;
+    font-size: 1em;
+    margin: 1em 0;
+    border-radius: 0.25em;
+    width: 22em;
+    height: 6em;
+}
+
+.sendMessageButton  {
+    padding: 0.5em;
+    font-size: 1em;
+    background-color:#0074D9;
+    color: white;
+    border: none;
+    border-radius: 0.25em;
+    width: 12em;
+    /*margin-bottom: 1em;*/
+}
+
+.message {
+    margin: 2em 0 ;
+}
+
+.messages {
+    margin-bottom: 1em;
+}
